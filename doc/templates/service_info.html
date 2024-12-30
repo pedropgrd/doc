@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do Serviço</title>
+</head>
+<body>
+    <h1>Informações do Serviço: {{ service }}</h1>
+    <h2>Base: {{ base }}</h2>
+    <h2>Status: {{ status }}</h2>
+    <ul>
+        {% for detail in details %}
+            <li>{{ detail }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Voltar</a>
+</body>
+</html>
