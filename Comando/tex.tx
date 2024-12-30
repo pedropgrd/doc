@@ -1,0 +1,5 @@
+poetry install or pip install poetry
+cd pasta principal 
+pip install flask    
+pip install paramiko
+python doc/app.py   
